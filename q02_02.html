@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScriptの勉強</title>
+  </head>
+  <body>
+    <p>
+      JavaScript基礎ドリル 穴埋め式
+    </p>
+    <script>
+      function ask (question, yes, no) {
+        if (window.confirm(question)) yes()
+        else no()
+      }
+
+      ask(
+        'Googleへの移動を始めていい？',
+        function () { 
+          alert('移動する!')
+          location.href = 'https://www.google.com/'
+        },
+        function () { 
+          alert('このページに留まる')
+          document.write('ほんの少し勉強が捗りました')
+        }
+      )
+    </script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScriptの勉強</title>
+  </head>
+  <body>
+    <p>
+      現在のNHKのあいさつ
+    </p>
+    <script>
+      function greetings () {
+        const today = new Date()
+        const hour = today.getHours()
+        if (hour >= 5 && hour <9) return "おはようございます"
+        else if (hour < 18) return "こんにちは"
+        else return "こんばんは"
+      }
+      document.write(greetings())
+    </script>
+  </body>
+</html>
