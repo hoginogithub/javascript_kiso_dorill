@@ -1,3 +1,4 @@
+const process = require('process')
 const resultList = Array(0)
 try {
   let n

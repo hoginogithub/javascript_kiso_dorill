@@ -39,7 +39,7 @@ const fiboGen = (n) => {
   }
 }
 
-const { PerformanceObservre, performance } = require('perf_hooks')
+const { performance } = require('perf_hooks')
 
 function measurePerformance (fnc, n, msg) {
   console.log(msg)

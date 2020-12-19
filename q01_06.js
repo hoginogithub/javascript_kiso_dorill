@@ -1,3 +1,5 @@
+const process = require('process')
+
 let num = 123.456
 let digit = 2
 

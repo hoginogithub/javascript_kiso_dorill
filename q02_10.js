@@ -1,3 +1,4 @@
+/*
 function catchingDecorator (func) {
   return function (...args) {
     try {
@@ -8,7 +9,8 @@ function catchingDecorator (func) {
     }
   }
 }
-
-let test = a => b
-test = catchingDecorator(test)
-test(5)
+*/
+//**** NG CASE ****
+//let test = a => b
+//test = catchingDecorator(test)
+//test(5)

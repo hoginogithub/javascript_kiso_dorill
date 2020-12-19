@@ -1,4 +1,4 @@
-let gVar1 = 30;
+let gVar1 = 30
 let gVar2 = 3
 const f3 = (() => {
   const captVar = gVar2

@@ -1,4 +1,4 @@
-const { PerformanceObservre, performance } = require('perf_hooks')
+const { performance } = require('perf_hooks')
 
 function measurePerformance (fnc, n, msg) {
   console.log(msg)
@@ -21,7 +21,7 @@ function * fiboGenerator () {
     y = tmp + y
   }
 }
-*/
+
 const fiboGen = (n) => {
   const f = fiboGenerator()
   for (let i = 0; i <= n; i++) {
@@ -32,6 +32,7 @@ const fiboGen = (n) => {
     }
   }
 }
+*/
 
 measurePerformance(fiboNoName, 20, '-再起呼び出し アロー演算子----------')
 // measurePerformance(fiboGen, 40, '-再起呼び出し ジェネレータ----------')
